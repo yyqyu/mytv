@@ -1,0 +1,102 @@
+name: Update
+
+on:
+  watch:
+    types: [started]
+  schedule:
+    - cron: 0,30 * * * *
+  workflow_dispatch:
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  Update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: GetTime
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M:%S CST')"
+
+    - name: ytb_m3u
+      run: |
+        pwd
+        chmod +x ./ytb2m3u/autorun.sh
+        ./ytb2m3u/autorun.sh
+
+    - name: Update
+      run: |
+        # CN
+        rm -f cn.m3u && wget https://chinaiptv.pages.dev/Unicast/heilongjiang/mobile.txt -O cn.m3u
+        sed -i -n '/cn/,+1p' cn.m3u
+        sed -i '1i #EXTM3U' cn.m3u
+        sed -i '/^\s*$/d' cn.m3u
+
+        # 成人
+        rm -f Adult.m3u && touch Adult.m3u
+        #wget http://adultiptv.net/chs.m3u -O Adult.m3u
+        #sed -i 's/XXX/成人频道/' Adult.m3u
+        #sed -i 's/AdultIPTV.net //g' Adult.m3u
+        wget https://met.pages.dev/static/iptv/av.m3u -O av.m3u 
+        cat av.m3u >> Adult.m3u
+        # wget https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u -O AdultVideo.txt
+        # sed -i -n '/日本/,+1p' AdultVideo.txt
+        # sed -i 's/日本/成人视频/' AdultVideo.txt
+        # echo '' >> Adult.m3u && cat AdultVideo.txt >> Adult.m3u
+        # rm -f AdultVideo.txt
+        rm -f av.m3u
+        sed -i '/^\s*$/d' Adult.m3u
+
+        # 港澳台
+        rm -f GAT.m3u && touch GAT.m3u
+        wget https://raw.githubusercontent.com/Mitchll1214/m3u/main/港澳台.m3u -O GAT.m3u && sed -i -n '/港澳台/{N;p;}' GAT.m3u
+        sed -i '1i #EXTM3U' GAT.m3u
+        sed -i '/^\s*$/d' GAT.m3u
+
+        # 体育
+        rm -f sport.m3u && wget https://met.pages.dev/static/iptv/sport.m3u -O sport.m3u
+        sed -i -n '/体育/,+1p' sport.m3u
+        sed -i '1i #EXTM3U' sport.m3u
+        sed -i '/^\s*$/d' sport.m3u
+
+        # 整合源（无成人）
+        rm -f IPTV.m3u && touch IPTV.m3u
+        cat cn.m3u >> IPTV.m3u
+        cat sport.m3u >> IPTV.m3u
+        cat youtube.m3u >> IPTV.m3u
+        sed -i '/#EXTM3U/d' IPTV.m3u
+        sed -i '1i #EXTM3U' IPTV.m3u
+        sed -i '/^\s*$/d' IPTV.m3u
+
+        # 整合源
+        rm -f IPTV-all.m3u && touch IPTV-all.m3u
+        cat cn.m3u >> IPTV-all.m3u
+        #cat CNTV.m3u >> IPTV-all.m3u
+        cat sport.m3u >> IPTV-all.m3u
+        cat GAT.m3u >> IPTV-all.m3u
+        cat Adult.m3u >> IPTV-all.m3u
+        cat youtube.m3u >> IPTV-all.m3u
+        sed -i '/#EXTM3U/d' IPTV-all.m3u
+        sed -i '1i #EXTM3U' IPTV-all.m3u
+        sed -i '/^\s*$/d' IPTV-all.m3u
+        
+        # 节目源
+        rm -f EPG.xml && wget https://epg.112114.xyz/pp.xml -O EPG.xml
+        # readme.md
+        echo "Auto Update IPTV in ${{ steps.date.outputs.date }} " > README.md
+
+    - name: Clean
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git checkout --orphan latest_branch
+        git add -A
+        git commit -am "${{ steps.date.outputs.date }}"
+        git branch -D main
+        git branch -m main
+
+    - name: Push
+      run: git push -f origin main
