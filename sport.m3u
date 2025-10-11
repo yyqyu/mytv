@@ -1,0 +1,133 @@
+#EXTM3U
+#EXTINF:0 group-title="体育" tvg-id="4675" tvg-logo="http://epg.it999.ru/img/4675.png" tvg-rec="7",MUTV
+https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8
+#EXTINF:-1,tvg-id="KPL直播" tvg-name="KPL直播" tvg-logo="https://game.gtimg.cn/images/yxzj/web201706/images/comm/logo.png" group-title="体育",KPL直播
+http://openhls-hw.douyucdn2.cn/live/1863767rkpl2_2000.m3u8?txSecret=8f5d520a00e62e79e1650e7360013964&txTime=68e77887&token=h5-douyu-0-1863767-886b24210e2df0150a969e5bd4b3bd37&did=10000000000000000000000000001501&origin=dy&vhost=play1&sid=419570072
+#EXTINF:-1,tvg-id="KPL直播" tvg-name="KPL直播" tvg-logo="https://game.gtimg.cn/images/yxzj/web201706/images/comm/logo.png" group-title="体育",KPL直播
+http://epg.112114.xyz/douyu/1863767
+#EXTINF:-1,tvg-id="咪咕体育1" tvg-name="咪咕体育1" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育1
+http://39.135.134.67/000000001000/3000000001000028638/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育2" tvg-name="咪咕体育2" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育2
+http://39.135.134.67/000000001000/3000000001000008379/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育3" tvg-name="咪咕体育3" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育3
+http://39.135.134.67/000000001000/3000000001000008001/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育4" tvg-name="咪咕体育4" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育4
+http://39.135.134.67/000000001000/3000000001000031494/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育5" tvg-name="咪咕体育5" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育5
+http://39.135.134.67/000000001000/3000000001000008176/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育6" tvg-name="咪咕体育6" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育6
+http://39.135.134.34/000000001000/3000000001000010129/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育7" tvg-name="咪咕体育7" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育7
+http://39.135.134.67/000000001000/3000000001000010948/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育8" tvg-name="咪咕体育8" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育8
+http://39.135.134.67/000000001000/3000000001000007218/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育9" tvg-name="咪咕体育9" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育9
+http://39.135.134.67/000000001000/3000000001000005308/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育10" tvg-name="咪咕体育10" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育10
+http://39.135.134.67/000000001000/3000000001000005969/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育11" tvg-name="咪咕体育11" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育11
+http://39.135.134.67/000000001000/3000000001000026778/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育12" tvg-name="咪咕体育12" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育12
+http://39.135.137.203/000000001000/3000000010000027691/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育13" tvg-name="咪咕体育13" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育13
+http://39.135.137.203/000000001000/3000000010000015560/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育14" tvg-name="咪咕体育14" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育14
+http://39.135.137.205/000000001000/3000000010000002809/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育15" tvg-name="咪咕体育15" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育15
+http://39.135.137.206/000000001000/3000000010000000097/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育16" tvg-name="咪咕体育16" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育16
+http://39.135.137.205/000000001000/3000000010000006077/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育17" tvg-name="咪咕体育17" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育17
+http://39.135.137.203/000000001000/3000000010000012558/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育17" tvg-name="咪咕体育17" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育17
+http://39.134.67.108/PLTV/88888888/224/3221225895/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育18" tvg-name="咪咕体育18" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育18
+http://39.135.137.208/000000001000/3000000010000023434/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育19" tvg-name="咪咕体育19" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育19
+http://39.135.137.203/000000001000/3000000010000003915/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育20" tvg-name="咪咕体育20" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育20
+http://39.135.137.205/000000001000/3000000010000004193/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育21" tvg-name="咪咕体育21" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育21
+http://39.135.137.205/000000001000/3000000010000021904/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育22" tvg-name="咪咕体育22" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育22
+http://39.135.137.207/000000001000/3000000010000011297/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育23" tvg-name="咪咕体育23" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育23
+http://39.135.137.208/000000001000/3000000010000006658/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育24" tvg-name="咪咕体育24" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育24
+http://39.135.137.205/000000001000/3000000010000010833/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育25" tvg-name="咪咕体育25" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育25
+http://39.135.137.203/000000001000/3000000010000025380/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育26" tvg-name="咪咕体育26" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育26篮球
+http://39.135.137.209/000000001000/3000000010000015686/index.m3u8
+#EXTINF:-1,tvg-id="咪咕体育27" tvg-name="咪咕体育27" tvg-logo="https://epg.112114.xyz/logo/咪咕体育.png" group-title="体育",咪咕体育27
+http://39.135.137.208/000000001000/3000000010000005180/index.m3u8
+#EXTINF:-1,tvg-id="咪咕视频1" tvg-name="咪咕视频1" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频1
+http://39.134.65.106/PLTV/88888888/224/3221225611/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频2" tvg-name="咪咕视频2" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频2
+http://39.134.65.106/PLTV/88888888/224/3221225613/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频3" tvg-name="咪咕视频3" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频3
+http://39.134.65.106/PLTV/88888888/224/3221225619/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频4" tvg-name="咪咕视频4" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频4
+http://39.134.65.106/PLTV/88888888/224/3221225620/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频5" tvg-name="咪咕视频5" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频5
+http://39.134.65.106/PLTV/88888888/224/3221225639/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频6" tvg-name="咪咕视频6" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频6
+http://39.134.65.106/PLTV/88888888/224/3221225641/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频7" tvg-name="咪咕视频7" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频7
+http://39.134.65.106/PLTV/88888888/224/3221225643/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频8" tvg-name="咪咕视频8" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频8
+http://39.134.65.106/PLTV/88888888/224/3221225647/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频9" tvg-name="咪咕视频9" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频9
+http://39.134.65.106/PLTV/88888888/224/3221225648/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频10" tvg-name="咪咕视频10" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频10
+http://39.134.65.106/PLTV/88888888/224/3221225649/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频11" tvg-name="咪咕视频11" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频11
+http://39.134.65.106/PLTV/88888888/224/3221225650/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频12" tvg-name="咪咕视频12" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频12
+http://39.134.65.106/PLTV/88888888/224/3221225653/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频13" tvg-name="咪咕视频13" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频13
+http://39.134.65.106/PLTV/88888888/224/3221225645/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频14" tvg-name="咪咕视频14" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频14
+http://39.134.65.106/PLTV/88888888/224/3221225654/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频15" tvg-name="咪咕视频15" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频15
+http://39.134.65.106/PLTV/88888888/224/3221225652/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频16" tvg-name="咪咕视频16" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频16
+http://39.134.65.106/PLTV/88888888/224/3221225658/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频17" tvg-name="咪咕视频17" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频17
+http://39.134.65.106/PLTV/88888888/224/3221225660/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频18" tvg-name="咪咕视频18" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频18
+http://39.134.65.106/PLTV/88888888/224/3221225756/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频19" tvg-name="咪咕视频19" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频19
+http://39.134.65.106/PLTV/88888888/224/3221225754/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频20" tvg-name="咪咕视频20" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频20
+http://39.134.65.106/PLTV/88888888/224/3221225733/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频21" tvg-name="咪咕视频21" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频21
+http://39.134.65.106/PLTV/88888888/224/3221225737/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频22" tvg-name="咪咕视频22" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频22
+http://39.134.65.106/PLTV/88888888/224/3221225739/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频23" tvg-name="咪咕视频23" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频23
+http://39.134.65.106/PLTV/88888888/224/3221225758/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频24" tvg-name="咪咕视频24" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频24
+http://39.134.65.106/PLTV/88888888/224/3221225760/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频25" tvg-name="咪咕视频25" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频25
+http://39.134.65.106/PLTV/88888888/224/3221225903/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频26" tvg-name="咪咕视频26" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频26
+http://39.134.65.106/PLTV/88888888/224/3221225899/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频27" tvg-name="咪咕视频27" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频27
+http://39.134.65.106/PLTV/88888888/224/3221225901/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频28" tvg-name="咪咕视频28" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频28
+http://39.134.65.106/PLTV/88888888/224/3221225914/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频29" tvg-name="咪咕视频29" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频29
+http://39.134.65.106/PLTV/88888888/224/3221225905/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频30" tvg-name="咪咕视频30" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频30
+http://39.134.65.106/PLTV/88888888/224/3221225912/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频31" tvg-name="咪咕视频31" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频31
+http://39.134.65.106/PLTV/88888888/224/3221225910/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频32" tvg-name="咪咕视频32" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频32
+http://39.134.65.106/PLTV/88888888/224/3221226031/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频33" tvg-name="咪咕视频33" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频33
+http://39.134.65.106/PLTV/88888888/224/3221225662/1.m3u8
+#EXTINF:-1,tvg-id="咪咕视频4K" tvg-name="咪咕视频4K" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",咪咕视频4K
+http://39.134.65.106/PLTV/88888888/224/3221225655/1.m3u8
+#EXTINF:-1,tvg-id="至臻世界" tvg-name="至臻世界" tvg-logo="https://epg.112114.xyz/logo/咪咕视频.png" group-title="体育",至臻世界
+http://39.134.65.106/PLTV/88888888/224/3221225651/1.m3u8
